@@ -1,2 +1,172 @@
-# ASONAC-GPS-593-
-ASONAC-593 es una organización dedicada al apoyo, monitoreo y seguridad integral para conductores y usuarios a nivel nacional. Nuestro objetivo es brindar herramientas confiables que permitan una movilidad más segura mediante sistemas de alerta, respuesta inmediata y soluciones tecnológicas avanzadas.  
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASONAC-593 | Seguridad, GPS y Respuesta Inmediata</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background: #0A3F8B;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 16px;
+            opacity: 0.8;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1650&q=80');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+            text-shadow: 1px 1px 6px black;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .section {
+            background: white;
+            margin-top: 25px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            margin-top: 0;
+            color: #0A3F8B;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .service-box {
+            background: #0A3F8B;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .service-box h3 {
+            margin: 10px 0;
+        }
+
+        .whatsapp-btn {
+            display: block;
+            width: 80%;
+            margin: 30px auto;
+            padding: 15px;
+            background: #25D366;
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #0A3F8B;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ASONAC-593</h1>
+    <p>Asociación Nacional de Conductores — Seguridad, Soporte y Monitoreo GPS</p>
+</header>
+
+<div class="hero">
+    <h2>Protegemos tu camino, donde estés</h2>
+</div>
+
+<div class="container">
+
+    <div class="section">
+        <h2>¿Quiénes Somos?</h2>
+        <p>
+            ASONAC-593 es una organización dedicada a la seguridad y soporte integral para conductores a nivel nacional. 
+            Brindamos sistemas de monitoreo GPS, asistencia inmediata, herramientas tecnológicas de prevención y 
+            soluciones de alerta para garantizar una movilidad más segura y eficiente.
+        </p>
+        <p>
+            Nuestro compromiso es acompañar a cada socio y usuario, ofreciendo respaldo real en carretera, 
+            comunicación directa y servicios diseñados para proteger vidas y bienes.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Servicios</h2>
+
+        <div class="services">
+            <div class="service-box">
+                <h3>📡 Monitoreo GPS</h3>
+                <p>Rastreo en tiempo real con equipos certificados y plataforma profesional.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>🚨 Respuesta Inmediata</h3>
+                <p>Alertas de emergencia, soporte y acompañamiento vial 24/7.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>🔒 Seguridad Inteligente</h3>
+                <p>Soluciones tecnológicas para reducir riesgos durante la conducción.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>🤝 Comunidad de Conductores</h3>
+                <p>Red de apoyo nacional para taxis, motos, autos particulares y transporte.</p>
+            </div>
+        </div>
+    </div>
+
+    <a class="whatsapp-btn" href="https://wa.me/593" target="_blank">
+        💬 Contáctanos por WhatsApp
+    </a>
+
+</div>
+
+<footer>
+    © 2026 ASONAC-593 — Seguridad y Monitoreo
+</footer>
+
+</body>
+</html>
