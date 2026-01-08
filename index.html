@@ -1,174 +1,173 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ASONAC-593 | Seguridad, GPS y Respuesta Inmediata</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASONAC-593 | Plataforma GPS</title>
 
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f6f9;
-            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f4f4;
+            color: #222;
         }
 
         header {
-            background: #0A3F8B;
-            padding: 25px;
-            text-align: center;
+            background: #003366;
             color: white;
+            padding: 20px;
+            text-align: center;
         }
 
         header h1 {
             margin: 0;
-            font-size: 32px;
         }
 
-        header p {
-            margin: 5px 0 0;
-            font-size: 16px;
-            opacity: 0.9;
-        }
-
-        .hero {
-            background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1650&q=80');
-            background-size: cover;
-            background-position: center;
-            padding: 120px 20px;
-            text-align: center;
-            color: white;
-            font-weight: bold;
-        }
-
-        .hero h2 {
-            font-size: 34px;
-            text-shadow: 2px 2px 8px black;
-        }
-
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 20px;
-        }
-
-        .section {
-            background: white;
-            margin-top: 25px;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        }
-
-        .section h2 {
-            margin-top: 0;
-            color: #0A3F8B;
-        }
-
-        .services {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-
-        .service-box {
-            background: #0A3F8B;
-            color: white;
-            padding: 20px;
-            border-radius: 10px;
+        nav {
+            background: #0055a5;
+            padding: 10px;
             text-align: center;
         }
 
-        .service-box h3 {
-            margin: 10px 0;
-        }
-
-        .whatsapp-btn {
-            display: block;
-            width: 80%;
-            margin: 30px auto;
-            padding: 15px;
-            background: #25D366;
+        nav a {
+            margin: 0 15px;
             color: white;
-            text-align: center;
-            font-size: 18px;
-            border-radius: 10px;
             text-decoration: none;
             font-weight: bold;
         }
 
-        footer {
-            background: #0A3F8B;
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1516571137133-1be29e121a14?auto=format&w=1200') center/cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             color: white;
+            font-size: 28px;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .container {
+            padding: 25px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            border-radius: 8px;
+            margin-top: -40px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #003366;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #0077cc;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .btn:hover {
+            background: #005fa3;
+        }
+
+        footer {
+            background: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: #eef3f8;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            border-left: 4px solid #003366;
         }
     </style>
 </head>
 
 <body>
 
-<header>
-    <h1>ASONAC-593</h1>
-    <p>Asociación Nacional de Conductores — Seguridad, Monitoreo y Respuesta Inmediata</p>
-</header>
+    <header>
+        <h1>ASONAC-593 | Plataforma GPS</h1>
+        <p>Sistema de monitoreo y soporte activo para vehículos</p>
+    </header>
 
-<div class="hero">
-    <h2>Protegemos tu camino, donde estés</h2>
-</div>
+    <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#gps">Dispositivos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
 
-<div class="container">
-
-    <div class="section">
-        <h2>¿Quiénes Somos?</h2>
-        <p>
-            ASONAC-593 es una organización dedicada a la seguridad y soporte integral para conductores a nivel nacional. 
-            Brindamos sistemas de monitoreo GPS, asistencia inmediata, herramientas tecnológicas de prevención y 
-            soluciones de alerta para garantizar una movilidad más segura y eficiente.
-        </p>
-        <p>
-            Nuestro compromiso es acompañar a cada socio y usuario, ofreciendo respaldo real en carretera, 
-            comunicación directa y servicios diseñados para proteger vidas y bienes.
-        </p>
+    <div class="hero">
+        Monitoreo Vehicular Profesional • 24/7
     </div>
 
-    <div class="section">
-        <h2>Servicios</h2>
+    <div class="container">
 
-        <div class="services">
-            <div class="service-box">
-                <h3>📡 Monitoreo GPS</h3>
-                <p>Rastreo en tiempo real con equipos certificados y plataforma profesional.</p>
+        <h2 id="servicios">Servicios ASONAC-593</h2>
+
+        <div class="services-grid">
+            <div class="card">
+                <h3>Monitoreo GPS</h3>
+                <p>Seguimiento en tiempo real desde cualquier dispositivo.</p>
             </div>
 
-            <div class="service-box">
-                <h3>🚨 Respuesta Inmediata</h3>
-                <p>Alertas de emergencia, soporte y acompañamiento vial 24/7.</p>
+            <div class="card">
+                <h3>S-SMAC Seguridad</h3>
+                <p>Sistema de soporte activo para conductores.</p>
             </div>
 
-            <div class="service-box">
-                <h3>🔒 Seguridad Inteligente</h3>
-                <p>Soluciones tecnológicas para reducir riesgos durante la conducción.</p>
+            <div class="card">
+                <h3>Alertas Inteligentes</h3>
+                <p>Geocercas, apagado remoto, alarmas y más.</p>
             </div>
 
-            <div class="service-box">
-                <h3>🤝 Comunidad de Conductores</h3>
-                <p>Red de apoyo nacional para taxis, motos, autos particulares y transporte.</p>
+            <div class="card">
+                <h3>Soporte 24/7</h3>
+                <p>Asistencia permanente especializada.</p>
             </div>
         </div>
+
+        <h2 id="gps">Modelos de GPS Compatibles</h2>
+        <ul>
+            <li>E08B</li>
+            <li>EC33B</li>
+            <li>GS10G</li>
+            <li>G510G</li>
+        </ul>
+
+        <a class="btn" href="https://wa.me/593999999999">Solicitar Instalación</a>
+
+        <h2 id="contacto" style="margin-top:40px;">Contacto</h2>
+        <p><strong>WhatsApp:</strong> +593 999 999 999</p>
+        <p><strong>Email:</strong> soporte@asonac593.com</p>
+
     </div>
 
-    <a class="whatsapp-btn" href="https://wa.me/593" target="_blank">
-        💬 Contáctanos por WhatsApp
-    </a>
-
-</div>
-
-<footer>
-    © 2026 ASONAC-593 — Seguridad y Monitoreo
-</footer>
+    <footer>
+        © 2026 ASONAC-593 • Plataforma GPS
+    </footer>
 
 </body>
 </html>
